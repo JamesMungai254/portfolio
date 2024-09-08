@@ -3,10 +3,10 @@ import '../static/home.css';
 import Logo from '../static/images/logo.png';
 import WelcomePage from './welcome';
 import AboutMe from './about';
-import Services from './services';
+import Projects from './projects';
 import Contact from './contacts';
 import Footer from './footer';
-
+import Education from './eductaion';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,8 +28,17 @@ const Home = () => {
           </button>
           <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
             <li><a href="#home" className="nav-link active">Home</a></li>
-            <li><a href="#about" className="nav-link">About</a></li>
-            <li><a href="#services" className="nav-link">Services</a></li>
+
+            <li className="dropdown">
+              <a href="#about" className="nav-link dropdown-toggle">About</a>
+              <ul className="dropdown-menu">
+                <li><a href="#about" className="dropdown-item">WHOAMI</a></li>
+                <li><a href="#education" className="dropdown-item">Education Background</a></li>
+              </ul>
+            </li>
+
+            
+            <li><a href="#project" className="nav-link">Project</a></li>
             <li className="dropdown">
               <a href="#" className="nav-link dropdown-toggle">Blogs</a>
               <ul className="dropdown-menu">
@@ -43,20 +52,24 @@ const Home = () => {
         </div>
       </nav>
 
-      {/* ------------------------------End Header-------------------------- */}
+      
       {/* ---------------------------------Welcome Page------------------------ */}
       <WelcomePage />
-      {/* ---------------------------------End Welcome Page------------------------ */}
+     
       {/* ---------------------------------About Me------------------------ */}
       <AboutMe />
-      {/* ---------------------------------End About--------------------------------- */}
-        {/* ---------------------------------Services--------------------------------- */}
-        <Services />
+     
 
-        {/* ---------------------------------End Services--------------------------------- */}
+      {/* ---------------------------------Education--------------------------------- */}
+      <Education />
+
+        {/* ---------------------------------Services--------------------------------- */}
+        <Projects />
+
+       
         {/* ---------------------------------Contact--------------------------------- */}
         <Contact />
-        {/* ---------------------------------End Contact--------------------------------- */}
+       
 
         {/* ---------------------------------Footer--------------------------------- */}
 

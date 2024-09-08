@@ -15,9 +15,9 @@
     
   "dev": "vite",
   
-  "predeploy":"npm run build",
-  
-  "deploy":"gh-pages -d build",
+  "predeploy": "npm run build",
+
+  "deploy": "gh-pages -d dist",
 
   "build": "vite build",
   
