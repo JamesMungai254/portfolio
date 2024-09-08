@@ -1,0 +1,136 @@
+*{
+    width: 99%;
+    
+}
+.body {
+    font-family:  'Fira Code', monospace;
+  
+  }
+  
+  /* ------------------------------HEADER----------------------------- */
+  .navbar {
+    padding: 10px 0;
+    height: auto; /* Let the height adjust based on content */
+    max-height: 80px; /* Set a maximum height for the navbar */
+    background-color: #333; /* Optional: background color for better visibility */
+    position: fixed; /* Fix the navbar to the top of the viewport */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+  }
+  
+  .container {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    margin: 0 7px !important; /* Reduce space between links */
+    padding: 10px 15px; /* Adjust padding for a more compact look */
+    color: #fff; /* Ensure the links have a consistent color */
+    text-decoration: none;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: #00aaff;
+  }
+  
+  .dropdown-menu {
+    display: none; /* Hidden by default */
+  position: absolute; /* Position relative to the parent element */
+  background-color: #444; /* Background color for the dropdown menu */
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove padding to adjust spacing */
+  border-radius: 4px; /* Rounded corners for the menu */
+  margin: 0; /* Remove default margin */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
+  }
+  
+  .dropdown-menu .dropdown-item {
+    padding: 10px 15px; /* Add padding for items */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Ensure each item is displayed as a block element */
+  }
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #555; /* Highlight color on hover */
+  }
+  
+  /* Show the dropdown menu when its parent is hovered or active */
+  .dropdown:hover .dropdown-menu,
+  .dropdown.open .dropdown-menu {
+    display: block; /* Display dropdown menu */
+    left: 0; /* Align to the left of the parent link */
+  }
+  
+  /* Toggler styles */
+  .navbar-toggler {
+    background-color: #00aaff;
+    width: 20%  ;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: none;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+        font-family:  'Fira Code', monospace;;
+      display: flex;
+      justify-content: space-between; /* Space between logo and button */
+      align-items: center;
+      width: 100%;
+      flex-wrap: wrap; /* Allow wrapping of content */
+    }
+
+    
+  
+    .navbar-toggler {
+      display: block;
+      width: 40%;
+      text-align: right; /* Align button to the right */
+      margin-bottom: 10px; /* Add space below the button */
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      align-items: center; /* Center the links horizontally */
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-link {
+      margin: 10px 0;
+      width: 100%; /* Ensure links take full width */
+      padding: 10px 0; /* Add padding for better click area */
+    }
+  
+    .dropdown-menu {
+        font-family:  'Fira Code', monospace;;
+      position: static;
+    }
+  }
+
+  
+
+  /* ---------------------------------------End of Header--------------------------- */
+  

@@ -1,0 +1,101 @@
+/* General styling */
+.contact-page {
+  padding: 50px 0;
+  color: black;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Contact Form */
+.contact-form {
+  margin-right: 100%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+/* Contact Information Card */
+.contact-info {
+  width: 100%;
+}
+
+
+
+.contact-link {
+  color: #ffffff;
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #1da1f2;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+/* Flexbox Layout for Form and Card */
+.contact-page .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-page .col-md-6 {
+  flex: 0 0 48%; /* Ensures the two columns are equal width with some spacing */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-page .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-page .col-md-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+  }
+}
+
+
+/* Scroll-to-Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 1000;
+  height: 0.5rem;
+  width: 0.5rem;
+  align-items: right;
+}
+
+.scroll-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-button:hover {
+  background-color: #0056b3;
+}
