@@ -10,7 +10,7 @@ function AboutMe() {
     <p>
       I've honed my skills in <span className="highlight">Machine Learning</span>,
       <span className="highlight">Data Analytics</span>, <span className="highlight">Computer Vision</span>,
-      and increasing my skills in <span className="highlight">Software Engineering</span>.
+      and I'm continuously improving my skills in <span className="highlight">Software Engineering</span>.
     </p>
     <p>
       I'm proficient in <span className="highlight">Web Development</span> and have hands-on experience

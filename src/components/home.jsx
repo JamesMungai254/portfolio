@@ -43,8 +43,8 @@ const Home = () => {
               <a href="#" className="nav-link dropdown-toggle">Blogs</a>
               <ul className="dropdown-menu">
                 <li><a href="https://medium.com/@mungaijames6303/bigquery-unlocking-the-power-of-big-data-c3e8d15c04ed" className="dropdown-item">SQL blog</a></li>
-                <li><a href="#" className="dropdown-item">ML blog</a></li>
-                <li><a href="#" className="dropdown-item">Deep Learning blog</a></li>
+                <li><a href="#" className="dropdown-item">ML blog..In Progress</a></li>
+                <li><a href="#" className="dropdown-item">Deep Learning blog..In progress</a></li>
               </ul>
             </li>
             <li><a href="#contact" className="nav-link">Contact</a></li>

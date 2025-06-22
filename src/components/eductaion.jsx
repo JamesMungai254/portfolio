@@ -1,5 +1,5 @@
 import React from 'react';
-import '../static/education.css'; // Make sure to create and link this CSS file
+import '../static/education.css'; 
 
 function Education() {
   return (
@@ -13,11 +13,9 @@ function Education() {
       <ul className="education-list">
         <li><strong>B.Sc. Data Science and Analytics</strong></li>
         <li><strong>Software Engineering</strong> - PLP Academy</li>
-        <li><strong>Predictive Analysis</strong> - Great Learning</li>
-        <li><strong>Feature Engineering, Basic and Advanced SQL</strong> - Kaggle</li>
-        <li><strong>Geospatial Data Science</strong> (in progress) - Kaggle</li>
+        <li><strong>AWS Cloud Practitioning </strong> (in progress) - AWS re/start</li>
       </ul>
-      <a href="path_to_your_cv.pdf" target="_blank" rel="noopener noreferrer" className="cv-link">
+      <a href="https://docs.google.com/document/d/1ZsfZ3FbInb9holWWWfaY60gBaR05a2MU/edit?usp=sharing&ouid=116819448591249776819&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="cv-link">
         Download my CV
       </a>
     </section>

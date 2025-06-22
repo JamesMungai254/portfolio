@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import '../static/contact.css'; // Link to your custom CSS
+import '../static/contact.css'; 
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Show or hide the button based on scroll position
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
       setIsVisible(true);
@@ -13,7 +12,7 @@ const ScrollToTopButton = () => {
     }
   };
 
-  // Scroll to top of the page
+  
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,

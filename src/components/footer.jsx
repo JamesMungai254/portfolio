@@ -1,6 +1,5 @@
 import React from 'react';
-//import 'bootstrap/dist/css/bootstrap.min.css';
-import '../static/footer.css'; // Custom CSS for styling
+import '../static/footer.css'; 
 import { EnvelopeFill, Github, Linkedin } from 'react-bootstrap-icons';
 
 const Footer = () => {

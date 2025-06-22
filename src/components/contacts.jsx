@@ -1,6 +1,6 @@
 import React from 'react';
 import '../static/contact.css'; // Link to your custom CSS
-import { EnvelopeFill, Github, Linkedin } from 'react-bootstrap-icons'; // Importing icons
+import { EnvelopeFill, Github, Linkedin, TelephoneFill} from 'react-bootstrap-icons'; 
 import ScrollToTopButton from './scrollbutton';
 
 const Contact = () => {
@@ -47,6 +47,12 @@ const Contact = () => {
                 <p className="card-text" style={{color:'blue'}}>
                   <a href="https://www.linkedin.com/in/james-mungai-b6462a2a3" className="contact-link" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="contact-icon" style={{color:'blue'}} /> LinkedIn
+                  </a>
+                </p>
+
+                <p className="card-text" style={{color:'black'}}>
+                  <a href="tel:+254791354440" className="contact-link">
+                    <TelephoneFill className="contact-icon" style={{color:'green'}}/> Phone
                   </a>
                 </p>
               </div>
