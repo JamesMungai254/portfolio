@@ -7,7 +7,7 @@ function AboutMe() {
       <div className="content">
         <h1>About Me</h1>
         <p>
-          I'm a passionate Data Science student at <span className="highlight">JKUAT</span> and a Software Engineering trainee at <span className="highlight">PLP Academy</span>, dedicated to building scalable, data-driven solutions.
+          I'm a passionate Data Science student at <span className="highlight">JKUAT</span>.
         </p>
         <p>
           My expertise spans <span className="highlight">Machine Learning</span>, <span className="highlight">Data Analytics</span>, and <span className="highlight">Computer Vision</span>, with ongoing development in <span className="highlight">Software Engineering</span> best practices.
