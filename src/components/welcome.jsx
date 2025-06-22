@@ -30,7 +30,7 @@ const WelcomePage = () => {
   <div>Data Analyst</div>
   <div>ML engineer</div>
   <div>Database Designer</div>
-  <div>Software Developer</div>
+  <div>Cloud Practitioner</div>
     {/*  <p><span className={`role ${role ? 'fade-in' : ''}`}>{role}</span></p>*/}
   
 </div>
