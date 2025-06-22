@@ -43,7 +43,7 @@ const Home = () => {
               <a href="#" className="nav-link dropdown-toggle">Blogs</a>
               <ul className="dropdown-menu">
                 <li><a href="https://medium.com/@mungaijames6303/bigquery-unlocking-the-power-of-big-data-c3e8d15c04ed" className="dropdown-item">SQL blog</a></li>
-                <li><a href="#" className="dropdown-item">ML blog..In Progress</a></li>
+                <li><a href="https://medium.com/@mungaijames6303/managing-ec2-instances-with-aws-systems-manager-a-hands-on-guide-1226bea267ef" className="dropdown-item">AWS EC2</a></li>
                 <li><a href="#" className="dropdown-item">Deep Learning blog..In progress</a></li>
               </ul>
             </li>
