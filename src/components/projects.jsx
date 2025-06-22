@@ -19,8 +19,8 @@ function Projects() {
     </div>
     <div className="card">
       <div className="card-icon">&#9881;</div>
-      <h3>Web Development</h3>
-      <p><a href="https://jamesmungai254.github.io/ReactApp2/" style={{textDecoration:'none'}}> Responsive  and dynamic websites  React.js frameworks to boost my friends startup online business.</a></p>
+      <h3>AWS BLOG</h3>
+      <p><a href="https://medium.com/@mungaijames6303/managing-ec2-instances-with-aws-systems-manager-a-hands-on-guide-1226bea267ef" style={{textDecoration:'none'}}> Managing EC2 Instances with AWS Systems Manager — A Hands-On Guide.run remote commands on your EC2 instance using Systems Manager.</a></p>
     </div>
     <div className="card">
       <div className="card-icon">&#128200;</div>
@@ -32,15 +32,15 @@ function Projects() {
       <div className="card-icon">&#129302;</div>
       <h3>Machine Learning</h3>
       <p>
-       <a href="https://github.com/JamesMungai254/nlp1.git" style={{textDecoration:'none'}}>Developed my first deep learning model for natural language processing.</a>
+       <a href="https://maizeleafdiseaseprediction.streamlit.app/" style={{textDecoration:'none'}}>Developed my first deep learning model for Leaf Maize disease detection.</a>
       </p>
     </div>
 
     <div className="card">
       <div className="card-icon">&#128736;</div>
-      <h3>Data Engineering</h3>
+      <h3>Data Engineering( In progress)</h3>
       <p>
-        Am currently building robust data pipelines to collect, process, and analyze data efficiently.
+        Am currently building robust data pipeline to collect, process, and analyze data efficiently.
       </p>
     </div>
   </div>
